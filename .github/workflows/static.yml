@@ -39,7 +39,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload build folder
-          path: "/build"
+          path: "./build"
 
   # Single deploy job since we're just deploying
   deploy:
